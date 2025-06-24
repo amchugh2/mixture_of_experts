@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: OrderBook
+Version: 0.1.2
+Summary: Limit Order Book Matching Engine
+Home-page: http://pypi.python.org/pypi/OrderBook/
+Author: Michael Nguyen
+Author-email: dyn4mik3@gmail.com
+License: LICENSE.txt
+License-File: LICENSE.txt
+Requires-Dist: sortedcontainers>=2
