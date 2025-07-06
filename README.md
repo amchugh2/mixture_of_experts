@@ -200,7 +200,7 @@ The model typically achieves:
 ## 🔍 Model Details
 
 ### NoLBERT Architecture
-- **Base Model**: Norwegian Language BERT (`alikLab/NoLBERT`)
+- **Base Model**: NoLBERT (`alikLab/NoLBERT`)
 - **Purpose**: Modified BERT to avoid lookahead bias in financial time series
 - **Task**: Binary classification (Buy/Sell)
 - **Input**: Text representation of financial features
