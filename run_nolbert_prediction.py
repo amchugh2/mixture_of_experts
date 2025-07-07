@@ -2,6 +2,8 @@ from data_collection import fetch_ohlcv, compute_alpha_factors, fetch_fundamenta
 from nolbert_experts import NewsExpert, MarketDataExpert, AlphaFactorExpert, FundamentalsExpert, model, tokenizer, device
 import warnings
 import pandas as pd
+import numpy as np
+import torch
 
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -34,6 +36,40 @@ def summarize_fundamentals(fundamentals):
     if not fundamentals:
         return "No fundamentals."
     return ', '.join([f"{k}: {v}" for k, v in fundamentals.items()])
+
+def get_market_embeddings(ohlcv_df, market_analyst, patch_len=10):
+    """
+    Converts OHLCV data into patch embeddings and passes through MarketAnalyst's reprogrammer.
+    
+    Parameters:
+        ohlcv_df (pd.DataFrame): Must contain ['Open', 'High', 'Low', 'Close', 'Volume']
+        market_analyst (MarketAnalyst): Initialized instance of the class
+        patch_len (int): Length of each patch (in days)
+
+    Returns:
+        np.ndarray: Reprogrammed embeddings (1, L_P, D)
+    """
+    # Step 1: Select and transpose OHLCV data
+    X = ohlcv_df[['Open', 'High', 'Low', 'Close', 'Volume']].values.T  # Shape: (5, T)
+    N, T = X.shape
+
+    # Step 2: Ensure T is long enough for patching
+    L_P = T // patch_len
+    if L_P == 0:
+        raise ValueError(f"Not enough data to create at least one patch of length {patch_len}")
+
+    # Step 3: Create patches
+    patches = np.stack([
+        X[:, i * patch_len:(i + 1) * patch_len].flatten()
+        for i in range(L_P)
+    ], axis=0)  # Shape: (L_P, 5*patch_len)
+
+    # Step 4: Convert to tensor and run through reprogrammer
+    X_tensor = torch.tensor(patches[np.newaxis, :, :], dtype=torch.float32)
+    with torch.no_grad():
+        embeddings = market_analyst.reprogrammer(X_tensor)
+
+    return embeddings.detach().numpy()  # Shape: (1, L_P, D)
 
 def main():
     ticker = 'MSFT'
@@ -86,6 +122,9 @@ def main():
     market_expert = MarketDataExpert(model, tokenizer, device)
     alpha_expert = AlphaFactorExpert(model, tokenizer, device)
     fundamentals_expert = FundamentalsExpert(model, tokenizer, device)
+
+    embeddings = get_market_embeddings(ohlcv_df, market_expert, patch_len=10)
+    print("Final embeddings shape:", embeddings.shape)
 
     # Get predictions
     print("\n=== Expert Predictions ===")

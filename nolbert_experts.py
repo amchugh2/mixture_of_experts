@@ -1,5 +1,9 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import torch.nn as nn
+import numpy as np
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
 
 # Load NoLBERT model and tokenizer once
 checkpoint = "alikLab/NoLBERT"
@@ -28,11 +32,39 @@ class NewsExpert:
         pred = torch.argmax(logits, dim=-1).item()
         return "Rise" if pred == 1 else "Fall"
 
+
+# --- Added Reprogrammer & Patching ---
+class MarketReprogrammer(nn.Module):
+    def __init__(self, input_dim=50, prototype_count=32, embed_dim=128):
+        super().__init__()
+        self.E_prime = nn.Parameter(torch.randn(prototype_count, embed_dim))
+        self.query_proj = nn.Linear(input_dim, embed_dim)
+        self.key_proj = nn.Linear(embed_dim, embed_dim)
+        self.value_proj = nn.Linear(embed_dim, embed_dim)
+
+    def forward(self, X_patch):
+        Q = self.query_proj(X_patch)
+        K = self.key_proj(self.E_prime)
+        V = self.value_proj(self.E_prime)
+        attn_scores = torch.matmul(Q, K.T) / (K.shape[-1] ** 0.5)
+        attn_weights = torch.softmax(attn_scores, dim=-1)
+        return torch.matmul(attn_weights, V)
+
+def create_patches(X, patch_len=10):
+    N, T = X.shape
+    L_P = T // patch_len
+    patches = np.stack([
+        X[:, i * patch_len:(i + 1) * patch_len].flatten()
+        for i in range(L_P)
+    ], axis=0)
+    return patches[np.newaxis, :, :]
+
 class MarketDataExpert:
     def __init__(self, model, tokenizer, device):
         self.model = model
         self.tokenizer = tokenizer
         self.device = device
+        self.reprogrammer = MarketReprogrammer()
 
     def analyze(self, ohlcv_stats, days=1):
         prompt = (
@@ -45,6 +77,7 @@ class MarketDataExpert:
             logits = self.model(**inputs).logits
         pred = torch.argmax(logits, dim=-1).item()
         return "Rise" if pred == 1 else "Fall"
+
 
 class AlphaFactorExpert:
     def __init__(self, model, tokenizer, device):
@@ -64,6 +97,7 @@ class AlphaFactorExpert:
         pred = torch.argmax(logits, dim=-1).item()
         return "Rise" if pred == 1 else "Fall"
 
+
 class FundamentalsExpert:
     def __init__(self, model, tokenizer, device):
         self.model = model
@@ -80,27 +114,4 @@ class FundamentalsExpert:
         with torch.no_grad():
             logits = self.model(**inputs).logits
         pred = torch.argmax(logits, dim=-1).item()
-        # For demonstration, map binary output to 'Rise'/'Fall' (can be extended for 5-class if fine-tuned)
         return "Rise" if pred == 1 else "Fall"
-
-# --- Example Usage ---
-def main():
-    # Example inputs (replace with real data in production)
-    news_article = "Apple's Q4 earnings beat expectations, driven by strong iPhone sales and growth in services."
-    ohlcv_stats = "Minimum close: 188.93, Maximum close: 197.59, Median close: 194.20, Trend: downward."
-    alpha_factors_desc = "ID 26: close to min/max, ID 5: close - vwap, ID 29: stddev(high), ID 27: corr(low, adv15), ID 25: corr(high, volume)"
-    fundamentals_desc = "Q4 earnings show strong performance, record iPhone and services revenue, positive outlook for next quarter."
-
-    news_expert = NewsExpert(model, tokenizer, device)
-    market_expert = MarketDataExpert(model, tokenizer, device)
-    alpha_expert = AlphaFactorExpert(model, tokenizer, device)
-    fundamentals_expert = FundamentalsExpert(model, tokenizer, device)
-
-    print("NewsExpert prediction:", news_expert.analyze(news_article))
-    print("MarketDataExpert prediction:", market_expert.analyze(ohlcv_stats))
-    print("AlphaFactorExpert prediction:", alpha_expert.analyze(alpha_factors_desc))
-    print("FundamentalsExpert prediction:", fundamentals_expert.analyze(fundamentals_desc))
-
-if __name__ == "__main__":
-    torch.manual_seed(42)
-    main() 
