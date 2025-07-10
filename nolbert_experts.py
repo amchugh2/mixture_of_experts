@@ -32,52 +32,76 @@ class NewsExpert:
         pred = torch.argmax(logits, dim=-1).item()
         return "Rise" if pred == 1 else "Fall"
 
-
-# --- Added Reprogrammer & Patching ---
 class MarketReprogrammer(nn.Module):
-    def __init__(self, input_dim=50, prototype_count=32, embed_dim=128):
+    def __init__(self, input_dim, prototype_count=32, embed_dim=128):
         super().__init__()
+        print(f"[INIT] MarketReprogrammer input_dim = {input_dim}")
         self.E_prime = nn.Parameter(torch.randn(prototype_count, embed_dim))
         self.query_proj = nn.Linear(input_dim, embed_dim)
         self.key_proj = nn.Linear(embed_dim, embed_dim)
         self.value_proj = nn.Linear(embed_dim, embed_dim)
 
     def forward(self, X_patch):
-        Q = self.query_proj(X_patch)
-        K = self.key_proj(self.E_prime)
-        V = self.value_proj(self.E_prime)
-        attn_scores = torch.matmul(Q, K.T) / (K.shape[-1] ** 0.5)
-        attn_weights = torch.softmax(attn_scores, dim=-1)
-        return torch.matmul(attn_weights, V)
+        B, L, D = X_patch.shape  # Batch, Patches, Features
+        X_patch_flat = X_patch.view(B * L, D)  # (B*L, D)
 
-def create_patches(X, patch_len=10):
-    N, T = X.shape
-    L_P = T // patch_len
-    patches = np.stack([
-        X[:, i * patch_len:(i + 1) * patch_len].flatten()
-        for i in range(L_P)
-    ], axis=0)
-    return patches[np.newaxis, :, :]
+        Q = self.query_proj(X_patch_flat)  # (B*L, embed_dim)
+        K = self.key_proj(self.E_prime)    # (P, embed_dim)
+        V = self.value_proj(self.E_prime)  # (P, embed_dim)
+
+        attn_scores = torch.matmul(Q, K.T) / (K.shape[-1] ** 0.5)  # (B*L, P)
+        attn_weights = torch.softmax(attn_scores, dim=-1)          # (B*L, P)
+
+        attended = torch.matmul(attn_weights, V)  # (B*L, embed_dim)
+        return attended.view(B, L, -1)            # Reshape back to (B, L, embed_dim)
+
+    def create_patches(X, patch_len=10):
+        N, T = X.shape
+        L_P = T // patch_len
+        patches = np.stack([
+            X[:, i * patch_len:(i + 1) * patch_len].flatten()
+            for i in range(L_P)
+        ], axis=0)
+        return patches[np.newaxis, :, :]
 
 class MarketDataExpert:
     def __init__(self, model, tokenizer, device):
         self.model = model
         self.tokenizer = tokenizer
         self.device = device
-        self.reprogrammer = MarketReprogrammer()
+        self.reprogrammer = None 
 
-    def analyze(self, ohlcv_stats, days=1):
+    def set_reprogrammer(self, input_dim):
+        self.reprogrammer = MarketReprogrammer(input_dim=input_dim).to(self.device)
+
+    def analyze(self, ohlcv_patches, ohlcv_stats, days=1):
+        ohlcv_tensor = torch.tensor(ohlcv_patches, dtype=torch.float32).to(self.device)
+
+        with torch.no_grad():
+            print('embedder')
+            embedding = self.reprogrammer(ohlcv_tensor)
+            mean_embed = embedding.mean(dim=1).squeeze().cpu().numpy()
+            embed_summary = ", ".join([f"{v:.4f}" for v in mean_embed[:10]])
+
+        trend_str = "upward" if ohlcv_stats["trend"] > 0 else "downward"
+
         prompt = (
-            f"Instruction: You are provided with historical OHLCV data statistics. Please predict how the stock will perform in the next {days} day(s). Your response should be 'Rise' or 'Fall'.\n"
-            f"Prompt: Statistics: {ohlcv_stats}\n"
+            f"Instruction: You are provided with historical OHLCV data and a description of its statistics. "
+            f"Please predict how the stock will perform in the next {days} day(s). Your response should be 'Rise' or 'Fall'.\n"
+            f"Prompt: Mean embedding vector (first 10 dims): {embed_summary}\n"
+            f"Statistics: The historical prices have a minimum close of {ohlcv_stats['min_val']} {ohlcv_stats['min_D']} days ago, "
+            f"a maximum close of {ohlcv_stats['max_val']} {ohlcv_stats['max_D']} days ago, "
+            f"and a median close of {ohlcv_stats['median_val']} {ohlcv_stats['median_D']} days ago. "
+            f"The overall trend is {trend_str}.\n"
             f"Question: Given the reprogrammed OHLCV data and its statistics, how is the stock expected to perform in the next {days} day(s)?"
         )
+
         inputs = self.tokenizer(prompt, return_tensors="pt", truncation=True, padding=True).to(self.device)
         with torch.no_grad():
             logits = self.model(**inputs).logits
+
         pred = torch.argmax(logits, dim=-1).item()
         return "Rise" if pred == 1 else "Fall"
-
 
 class AlphaFactorExpert:
     def __init__(self, model, tokenizer, device):

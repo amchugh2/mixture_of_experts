@@ -8,24 +8,40 @@ import torch
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# Helper functions to summarize data for each expert
+# --- Summary functions ---
+
 def summarize_ohlcv(df):
     try:
-        min_close = df['Close'].min()
-        max_close = df['Close'].max()
-        median_close = df['Close'].median()
-        trend = 'upward' if df['Close'].iloc[-1].item() > df['Close'].iloc[0].item() else 'downward'
-        return f"Minimum close: {min_close}, Maximum close: {max_close}, Median close: {median_close}, Trend: {trend}."
+        min_val = df['Close'].min()
+        max_val = df['Close'].max()
+        median_val = df['Close'].median()
+        min_D = (df['Close'].idxmin() - df.index[0]).days
+        max_D = (df['Close'].idxmax() - df.index[0]).days
+        median_D = (df['Close'].sub(median_val).abs().idxmin() - df.index[0]).days
+        trend = 1 if df['Close'].iloc[-1] > df['Close'].iloc[0] else -1
+
+        return {
+            "min_val": round(min_val, 2),
+            "max_val": round(max_val, 2),
+            "median_val": round(median_val, 2),
+            "min_D": min_D,
+            "max_D": max_D,
+            "median_D": median_D,
+            "trend": trend
+        }
     except Exception as e:
         print(f"[summarize_ohlcv] Error summarizing OHLCV: {e}")
-        return "OHLCV summary unavailable."
+        return {
+            "min_val": "N/A", "max_val": "N/A", "median_val": "N/A",
+            "min_D": "N/A", "max_D": "N/A", "median_D": "N/A", "trend": 0
+        }
 
 def summarize_alpha_factors(factors):
     summary = []
     for k, v in factors.items():
         if isinstance(v, pd.Series):
             summary.append(f"{k}: {v.mean():.4f}")
-        elif isinstance(v, (float, int)):  # covers NaN, float, int
+        elif isinstance(v, (float, int)):
             val = 'nan' if pd.isna(v) else f"{v:.4f}"
             summary.append(f"{k}: {val}")
         else:
@@ -37,39 +53,30 @@ def summarize_fundamentals(fundamentals):
         return "No fundamentals."
     return ', '.join([f"{k}: {v}" for k, v in fundamentals.items()])
 
-def get_market_embeddings(ohlcv_df, market_analyst, patch_len=10):
-    """
-    Converts OHLCV data into patch embeddings and passes through MarketAnalyst's reprogrammer.
-    
-    Parameters:
-        ohlcv_df (pd.DataFrame): Must contain ['Open', 'High', 'Low', 'Close', 'Volume']
-        market_analyst (MarketAnalyst): Initialized instance of the class
-        patch_len (int): Length of each patch (in days)
+# --- NEW: Just return patches, not embeddings
 
-    Returns:
-        np.ndarray: Reprogrammed embeddings (1, L_P, D)
-    """
-    # Step 1: Select and transpose OHLCV data
-    X = ohlcv_df[['Open', 'High', 'Low', 'Close', 'Volume']].values.T  # Shape: (5, T)
+def get_market_patches(ohlcv_df, patch_len=10):
+    print("[DEBUG] Starting get_market_patches()")
+
+    X = ohlcv_df[['Open', 'High', 'Low', 'Close', 'Volume']].values.T
     N, T = X.shape
+    print(f"[DEBUG] OHLCV data shape: {X.shape} (features={N}, timesteps={T})")
 
-    # Step 2: Ensure T is long enough for patching
     L_P = T // patch_len
     if L_P == 0:
         raise ValueError(f"Not enough data to create at least one patch of length {patch_len}")
+    print(f"[DEBUG] Creating {L_P} patches with patch_len={patch_len}")
 
-    # Step 3: Create patches
     patches = np.stack([
         X[:, i * patch_len:(i + 1) * patch_len].flatten()
         for i in range(L_P)
-    ], axis=0)  # Shape: (L_P, 5*patch_len)
+    ], axis=0)  # (L_P, patch_size)
 
-    # Step 4: Convert to tensor and run through reprogrammer
-    X_tensor = torch.tensor(patches[np.newaxis, :, :], dtype=torch.float32)
-    with torch.no_grad():
-        embeddings = market_analyst.reprogrammer(X_tensor)
+    patch_tensor = patches[np.newaxis, :, :]  # (1, L_P, patch_size)
+    print(f"[DEBUG] Patch tensor shape: {patch_tensor.shape}")
+    return patch_tensor
 
-    return embeddings.detach().numpy()  # Shape: (1, L_P, D)
+# --- Main logic ---
 
 def main():
     ticker = 'MSFT'
@@ -85,11 +92,7 @@ def main():
     print("[DEBUG] OHLCV raw data:")
     print(ohlcv.head())
 
-    # Make sure we are working with a DataFrame
-    if isinstance(ohlcv, dict):
-        ohlcv_df = ohlcv[ticker]
-    else:
-        ohlcv_df = ohlcv
+    ohlcv_df = ohlcv[ticker] if isinstance(ohlcv, dict) else ohlcv
 
     print(f"\n=== Computing Alpha Factors ===")
     alpha_factors = compute_alpha_factors(ohlcv_df)
@@ -101,13 +104,10 @@ def main():
 
     print(f"\n=== Fetching News ===")
     news_list = fetch_news(ticker)
-    if news_list:
-        print("[DEBUG] News sample:", news_list[0])
-        news_article = news_list[0]
-    else:
-        news_article = "No news available."
+    news_article = news_list[0] if news_list else "No news available."
+    print("[DEBUG] News sample:", news_article)
 
-    # Prepare summaries
+    # Summarize for LLM prompts
     ohlcv_stats = summarize_ohlcv(ohlcv_df)
     alpha_factors_desc = summarize_alpha_factors(alpha_factors)
     fundamentals_desc = summarize_fundamentals(fundamentals)
@@ -123,13 +123,15 @@ def main():
     alpha_expert = AlphaFactorExpert(model, tokenizer, device)
     fundamentals_expert = FundamentalsExpert(model, tokenizer, device)
 
-    embeddings = get_market_embeddings(ohlcv_df, market_expert, patch_len=10)
-    print("Final embeddings shape:", embeddings.shape)
+    # Prepare patch tensor (raw input to reprogrammer)
+    ohlcv_patches = get_market_patches(ohlcv_df, patch_len=10)
+    patch_size = ohlcv_patches.shape[-1]
+    market_expert.set_reprogrammer(input_dim=patch_size)
 
-    # Get predictions
+    # --- Final predictions ---
     print("\n=== Expert Predictions ===")
     print("📰 NewsExpert:", news_expert.analyze(news_article))
-    print("📈 MarketDataExpert:", market_expert.analyze(ohlcv_stats))
+    print("📈 MarketDataExpert:", market_expert.analyze(ohlcv_patches, ohlcv_stats))
     print("📊 AlphaFactorExpert:", alpha_expert.analyze(alpha_factors_desc))
     print("💰 FundamentalsExpert:", fundamentals_expert.analyze(fundamentals_desc))
 
