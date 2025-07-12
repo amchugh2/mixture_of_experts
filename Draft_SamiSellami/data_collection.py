@@ -2,18 +2,10 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 
-# Try to import StockNews for Yahoo news and sentiment
-try:
-    from stocknews import StockNews
-    STOCKNEWS_AVAILABLE = True
-except ImportError:
-    STOCKNEWS_AVAILABLE = False
-    print("stocknews package not found. Install with: pip install stocknews")
-
 # 1. Market Data (OHLCV)
 def fetch_ohlcv(ticker, start_date, end_date):
     try:
-        df = yf.download(ticker, start=start_date, end=end_date)
+        df = yf.download(ticker, start=start_date, end=end_date, auto_adjust=True)
         if df.empty:
             raise ValueError("Empty DataFrame")
         df.reset_index(inplace=True)
@@ -58,25 +50,32 @@ def fetch_fundamentals(ticker):
         return None  # No fallback data
 
 # 4. News (now using stocknews for Yahoo news and sentiment)
-def fetch_news(ticker):
-    if STOCKNEWS_AVAILABLE:
-        try:
-            sn = StockNews([ticker])
-            df = sn.summarize()
-            if df.empty:
-                print(f"No news found for {ticker}.")
-                return None
-            # Return top 3 news headlines with sentiment
-            news_list = []
-            for _, row in df.iterrows():
-                news_list.append(f"{row['stock']} | {row['date']} | {row['title']} | Sentiment: {row['sentiment']} | Summary: {row['summary']}")
-            return news_list[:3] if news_list else None
-        except Exception as e:
-            print(f"Failed to fetch news with stocknews for {ticker}: {e}")
-            return None
-    # Fallback if stocknews not available
-    print(f"stocknews not available or failed for {ticker}.")
-    return None
+import os
+import requests
+
+def fetch_news(ticker, api_key=None):
+    if api_key is None:
+        api_key = os.getenv("NEWSAPI_KEY")  # Make sure you export this
+
+    url = "https://newsapi.org/v2/everything"
+    params = {
+        "q": ticker,
+        "sortBy": "publishedAt",
+        "language": "en",
+        "apiKey": api_key
+    }
+
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        articles = response.json().get("articles", [])
+        return [
+            f"{article['title']}. {article.get('description', '')}"
+            for article in articles if article.get('description')
+        ]
+    except Exception as e:
+        print(f"Failed to fetch news with NewsAPI for {ticker}: {e}")
+        return ["No news available."]
 
 # --- Example Usage ---
 def main():
