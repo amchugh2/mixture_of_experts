@@ -78,6 +78,7 @@ class MarketDataExpert:
         ohlcv_tensor = torch.tensor(ohlcv_patches, dtype=torch.float32).to(self.device)
 
         with torch.no_grad():
+            print('embedder')
             embedding = self.reprogrammer(ohlcv_tensor)
             mean_embed = embedding.mean(dim=1).squeeze().cpu().numpy()
             embed_summary = ", ".join([f"{v:.4f}" for v in mean_embed[:10]])

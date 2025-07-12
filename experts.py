@@ -60,7 +60,7 @@ class NewsExpert:
 
 # Need to build this out more
 def fetch_news(ticker):
-    url = f"https://newsapi.org/v2/everything?q={ticker}&apiKey=YOUR_API_KEY"
+    url = f"https://newsapi.org/v2/everything?q={ticker}&apiKey=37d004d771fa096e35801095719233e8"
     resp = requests.get(url)
     if resp.status_code == 200:
         articles = resp.json().get("articles", [])

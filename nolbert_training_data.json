@@ -1,0 +1,842 @@
+[
+  {
+    "text": "Stock: AAPL. Period: 2025-06. Monthly OHLCV - Open: $200.28, High: $207.39, Low: $195.07, Close: $205.17. Volume: 1,100,504,397, Avg Volume: 55,025,220. Price Volatility: 2.5183. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0172. Volume Momentum: 1.5947",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2025-06",
+    "monthly_return": 0.017203767972235988
+  },
+  {
+    "text": "Stock: AAPL. Period: 2025-05. Monthly OHLCV - Open: $209.08, High: $214.56, Low: $193.25, Close: $200.85. Volume: 1,195,889,556, Avg Volume: 56,947,122. Price Volatility: 6.1321. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0585. Volume Momentum: 0.2345",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2025-05",
+    "monthly_return": -0.058456778548659286
+  },
+  {
+    "text": "Stock: AAPL. Period: 2025-04. Monthly OHLCV - Open: $219.81, High: $225.19, Low: $169.21, Close: $212.50. Volume: 1,607,318,483, Avg Volume: 76,538,975. Price Volatility: 12.4238. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0479. Volume Momentum: 0.4359",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2025-04",
+    "monthly_return": -0.047896411129530886
+  },
+  {
+    "text": "Stock: AAPL. Period: 2025-03. Monthly OHLCV - Open: $241.79, High: $244.03, Low: $208.42, Close: $222.13. Volume: 1,114,686,136, Avg Volume: 53,080,292. Price Volatility: 9.1573. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0668. Volume Momentum: 0.3839",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2025-03",
+    "monthly_return": -0.0667983027349494
+  },
+  {
+    "text": "Stock: AAPL. Period: 2025-02. Monthly OHLCV - Open: $229.99, High: $250.00, Low: $225.70, Close: $241.84. Volume: 862,317,019, Avg Volume: 45,385,106. Price Volatility: 6.9477. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0607. Volume Momentum: -0.2221",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2025-02",
+    "monthly_return": 0.06065523441954306
+  },
+  {
+    "text": "Stock: AAPL. Period: 2025-01. Monthly OHLCV - Open: $248.93, High: $249.10, Low: $219.38, Close: $236.00. Volume: 1,200,291,603, Avg Volume: 60,014,580. Price Volatility: 7.4724. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0322. Volume Momentum: 0.8133",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2025-01",
+    "monthly_return": -0.032191921263071535
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-12. Monthly OHLCV - Open: $237.27, High: $260.10, Low: $237.16, Close: $250.42. Volume: 977,942,014, Avg Volume: 46,568,667. Price Volatility: 5.4161. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0452. Volume Momentum: -0.1798",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-12",
+    "monthly_return": 0.04520222045995235
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-11. Monthly OHLCV - Open: $220.97, High: $237.81, Low: $219.71, Close: $237.33. Volume: 891,640,714, Avg Volume: 44,582,036. Price Volatility: 4.4144. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0647. Volume Momentum: -0.5637",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-11",
+    "monthly_return": 0.06468978511506894
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-10. Monthly OHLCV - Open: $229.52, High: $237.49, Low: $221.33, Close: $225.91. Volume: 930,835,961, Avg Volume: 40,471,129. Price Volatility: 3.8021. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0013. Volume Momentum: 0.0171",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2024-10",
+    "monthly_return": -0.0013262013173600254
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-09. Monthly OHLCV - Open: $228.55, High: $233.09, Low: $213.92, Close: $233.00. Volume: 1,231,814,423, Avg Volume: 61,590,721. Price Volatility: 4.2757. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0459. Volume Momentum: 0.0917",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-09",
+    "monthly_return": 0.0459218027562059
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-08. Monthly OHLCV - Open: $224.37, High: $232.92, Low: $196.00, Close: $229.00. Volume: 1,122,666,993, Avg Volume: 51,030,318. Price Volatility: 6.8114. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0487. Volume Momentum: -0.1522",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-08",
+    "monthly_return": 0.04872687305367277
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-07. Monthly OHLCV - Open: $212.09, High: $237.23, Low: $211.92, Close: $222.08. Volume: 1,153,193,377, Avg Volume: 52,417,881. Price Volatility: 5.6294. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0246. Volume Momentum: -0.1716",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-07",
+    "monthly_return": 0.024590542099192675
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-06. Monthly OHLCV - Open: $192.90, High: $220.20, Low: $192.15, Close: $210.62. Volume: 1,723,984,420, Avg Volume: 90,736,022. Price Volatility: 8.4165. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0855. Volume Momentum: 0.6482",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-06",
+    "monthly_return": 0.08550224192135239
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-05. Monthly OHLCV - Open: $169.58, High: $193.00, Low: $169.11, Close: $192.25. Volume: 1,336,570,142, Avg Volume: 60,753,188. Price Volatility: 6.0092. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.1356. Volume Momentum: 0.4917",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-05",
+    "monthly_return": 0.13555818074424092
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-04. Monthly OHLCV - Open: $171.19, High: $178.36, Low: $164.07, Close: $170.33. Volume: 1,240,410,671, Avg Volume: 56,382,303. Price Volatility: 2.7728. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0018. Volume Momentum: 0.5063",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2024-04",
+    "monthly_return": 0.001764394518614429
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-03. Monthly OHLCV - Open: $179.55, High: $180.53, Low: $168.49, Close: $171.48. Volume: 1,430,780,147, Avg Volume: 71,539,007. Price Volatility: 2.8870. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0455. Volume Momentum: -0.1073",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2024-03",
+    "monthly_return": -0.04553044639875324
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-02. Monthly OHLCV - Open: $183.99, High: $191.05, Low: $179.25, Close: $180.75. Volume: 1,161,711,745, Avg Volume: 58,085,587. Price Volatility: 2.9453. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0327. Volume Momentum: 1.1065",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2024-02",
+    "monthly_return": -0.032698276784758715
+  },
+  {
+    "text": "Stock: AAPL. Period: 2024-01. Monthly OHLCV - Open: $187.15, High: $196.38, Low: $180.17, Close: $184.40. Volume: 1,187,139,861, Avg Volume: 56,530,470. Price Volatility: 4.4868. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0067. Volume Momentum: -0.3276",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2024-01",
+    "monthly_return": -0.006679594914888929
+  },
+  {
+    "text": "Stock: AAPL. Period: 2023-12. Monthly OHLCV - Open: $190.33, High: $199.62, Low: $187.45, Close: $192.53. Volume: 1,062,317,718, Avg Volume: 53,115,886. Price Volatility: 2.2564. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0067. Volume Momentum: -0.0664",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2023-12",
+    "monthly_return": 0.006745450742522443
+  },
+  {
+    "text": "Stock: AAPL. Period: 2023-11. Monthly OHLCV - Open: $171.00, High: $192.93, Low: $170.12, Close: $189.95. Volume: 1,099,760,711, Avg Volume: 52,369,558. Price Volatility: 5.3839. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0919. Volume Momentum: -0.1430",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2023-11",
+    "monthly_return": 0.09185491751451394
+  },
+  {
+    "text": "Stock: AAPL. Period: 2023-10. Monthly OHLCV - Open: $171.22, High: $182.34, Low: $165.67, Close: $170.77. Volume: 1,172,845,791, Avg Volume: 53,311,172. Price Volatility: 3.8367. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0172. Volume Momentum: -0.1403",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2023-10",
+    "monthly_return": -0.01715107913669059
+  },
+  {
+    "text": "Stock: AAPL. Period: 2023-09. Monthly OHLCV - Open: $189.49, High: $189.98, Low: $167.62, Close: $171.21. Volume: 1,337,873,796, Avg Volume: 66,893,690. Price Volatility: 5.3170. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0963. Volume Momentum: 0.1332",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2023-09",
+    "monthly_return": -0.0963264013512087
+  },
+  {
+    "text": "Stock: AAPL. Period: 2023-08. Monthly OHLCV - Open: $196.24, High: $196.73, Low: $171.96, Close: $187.87. Volume: 1,323,817,340, Avg Volume: 57,557,276. Price Volatility: 5.9574. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: -0.0395. Volume Momentum: 0.7231",
+    "label": 0,
+    "ticker": "AAPL",
+    "year_month": "2023-08",
+    "monthly_return": -0.03954397893714366
+  },
+  {
+    "text": "Stock: AAPL. Period: 2023-07. Monthly OHLCV - Open: $191.41, High: $198.23, Low: $186.60, Close: $196.45. Volume: 872,834,145, Avg Volume: 51,343,185. Price Volatility: 2.4531. Alpha Factors: current_price: 213.5500, price_change_1d: 1.1100, price_change_5d: 12.5500, price_change_10d: 16.9700, return_1d: 0.5225. Fundamentals: market_cap: 3189540127000.0, pe_ratio: 33.21, forward_pe: 26.81, price_to_book: 47.75, dividend_yield: 0.0051. News - Positive: 32, Negative: 0, Neutral: 18. Price Momentum: 0.0303. Volume Momentum: -0.1707",
+    "label": 1,
+    "ticker": "AAPL",
+    "year_month": "2023-07",
+    "monthly_return": 0.030260121669813202
+  },
+  {
+    "text": "Stock: MSFT. Period: 2025-06. Monthly OHLCV - Open: $457.14, High: $500.76, Low: $456.89, Close: $497.41. Volume: 401,277,780, Avg Volume: 20,063,889. Price Volatility: 11.3683. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0767. Volume Momentum: 0.7063",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2025-06",
+    "monthly_return": 0.07671493819945018
+  },
+  {
+    "text": "Stock: MSFT. Period: 2025-05. Monthly OHLCV - Open: $431.11, High: $462.52, Low: $424.90, Close: $460.36. Volume: 476,961,833, Avg Volume: 22,712,468. Price Volatility: 10.7884. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0822. Volume Momentum: -0.4101",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2025-05",
+    "monthly_return": 0.08218147625763995
+  },
+  {
+    "text": "Stock: MSFT. Period: 2025-04. Monthly OHLCV - Open: $374.65, High: $396.66, Low: $344.79, Close: $395.26. Volume: 563,143,922, Avg Volume: 26,816,377. Price Volatility: 13.0790. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0342. Volume Momentum: 0.8518",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2025-04",
+    "monthly_return": 0.03419765038331718
+  },
+  {
+    "text": "Stock: MSFT. Period: 2025-03. Monthly OHLCV - Open: $398.82, High: $402.15, Low: $367.24, Close: $375.39. Volume: 491,540,867, Avg Volume: 23,406,708. Price Volatility: 6.5763. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0337. Volume Momentum: 0.5293",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2025-03",
+    "monthly_return": -0.033720301680867
+  },
+  {
+    "text": "Stock: MSFT. Period: 2025-02. Monthly OHLCV - Open: $411.60, High: $419.31, Low: $386.57, Close: $396.99. Volume: 432,468,323, Avg Volume: 22,761,491. Price Volatility: 6.7439. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0339. Volume Momentum: 0.2791",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2025-02",
+    "monthly_return": -0.0338995424900224
+  },
+  {
+    "text": "Stock: MSFT. Period: 2025-01. Monthly OHLCV - Open: $425.53, High: $448.38, Low: $410.72, Close: $415.06. Volume: 462,562,599, Avg Volume: 23,128,130. Price Volatility: 11.2631. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0084. Volume Momentum: 1.0255",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2025-01",
+    "monthly_return": -0.008409384108175216
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-12. Monthly OHLCV - Open: $421.57, High: $456.16, Low: $420.66, Close: $421.50. Volume: 439,908,245, Avg Volume: 20,948,012. Price Volatility: 8.6873. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0220. Volume Momentum: -0.3445",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2024-12",
+    "monthly_return": -0.02199638034247533
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-11. Monthly OHLCV - Open: $409.01, High: $429.32, Low: $405.57, Close: $423.46. Volume: 442,321,341, Avg Volume: 22,116,067. Price Volatility: 5.6849. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0319. Volume Momentum: -0.3285",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-11",
+    "monthly_return": 0.03189804322928083
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-10. Monthly OHLCV - Open: $428.45, High: $438.50, Low: $406.30, Close: $406.35. Volume: 440,766,715, Avg Volume: 19,163,770. Price Volatility: 6.5312. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0341. Volume Momentum: 1.8267",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2024-10",
+    "monthly_return": -0.03408685730585461
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-09. Monthly OHLCV - Open: $417.91, High: $441.85, Low: $400.80, Close: $430.30. Volume: 376,719,438, Avg Volume: 18,835,972. Price Volatility: 11.5235. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0509. Volume Momentum: -0.1703",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-09",
+    "monthly_return": 0.050947635795232545
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-08. Monthly OHLCV - Open: $420.79, High: $427.46, Low: $385.58, Close: $417.14. Volume: 451,919,023, Avg Volume: 20,541,774. Price Volatility: 8.2435. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0001. Volume Momentum: -0.1976",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-08",
+    "monthly_return": 7.192347342421115e-05
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-07. Monthly OHLCV - Open: $448.66, High: $468.35, Low: $412.21, Close: $418.35. Volume: 440,446,499, Avg Volume: 20,020,295. Price Volatility: 16.1192. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0840. Volume Momentum: 1.4283",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2024-07",
+    "monthly_return": -0.0840321415278173
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-06. Monthly OHLCV - Open: $415.52, High: $456.17, Low: $408.92, Close: $446.95. Volume: 342,370,406, Avg Volume: 18,019,495. Price Volatility: 12.8390. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0808. Volume Momentum: 0.6221",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-06",
+    "monthly_return": 0.08084252273166959
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-05. Monthly OHLCV - Open: $392.61, High: $433.60, Low: $390.31, Close: $415.13. Volume: 413,810,421, Avg Volume: 18,809,565. Price Volatility: 10.1718. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0511. Volume Momentum: 1.0369",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-05",
+    "monthly_return": 0.05112168937053729
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-04. Monthly OHLCV - Open: $423.95, High: $429.37, Low: $388.03, Close: $389.33. Volume: 440,119,511, Avg Volume: 20,005,432. Price Volatility: 10.9895. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0830. Volume Momentum: 0.8447",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2024-04",
+    "monthly_return": -0.08300162517370518
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-03. Monthly OHLCV - Open: $411.27, High: $430.82, Low: $398.39, Close: $420.72. Volume: 425,101,681, Avg Volume: 21,255,084. Price Volatility: 8.3025. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0126. Volume Momentum: 0.2271",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-03",
+    "monthly_return": 0.012563176895306925
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-02. Monthly OHLCV - Open: $401.83, High: $420.82, Low: $397.22, Close: $413.64. Volume: 444,203,455, Avg Volume: 22,210,173. Price Volatility: 4.8079. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0244. Volume Momentum: 0.0421",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-02",
+    "monthly_return": 0.024419238199019304
+  },
+  {
+    "text": "Stock: MSFT. Period: 2024-01. Monthly OHLCV - Open: $373.86, High: $415.32, Low: $366.50, Close: $397.58. Volume: 525,975,837, Avg Volume: 25,046,468. Price Volatility: 13.8101. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0720. Volume Momentum: 0.8952",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2024-01",
+    "monthly_return": 0.07201984522878631
+  },
+  {
+    "text": "Stock: MSFT. Period: 2023-12. Monthly OHLCV - Open: $376.76, High: $378.16, Low: $362.90, Close: $376.04. Volume: 521,914,675, Avg Volume: 26,095,734. Price Volatility: 2.5751. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0041. Volume Momentum: -0.4331",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2023-12",
+    "monthly_return": 0.004085338175215694
+  },
+  {
+    "text": "Stock: MSFT. Period: 2023-11. Monthly OHLCV - Open: $339.79, High: $384.30, Low: $339.65, Close: $378.91. Volume: 564,165,364, Avg Volume: 26,865,017. Price Volatility: 10.7457. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0949. Volume Momentum: 0.0851",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2023-11",
+    "monthly_return": 0.09489409657005818
+  },
+  {
+    "text": "Stock: MSFT. Period: 2023-10. Monthly OHLCV - Open: $316.28, High: $346.20, Low: $311.21, Close: $338.11. Volume: 540,963,749, Avg Volume: 24,589,261. Price Volatility: 6.3191. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: 0.0507. Volume Momentum: -0.0148",
+    "label": 1,
+    "ticker": "MSFT",
+    "year_month": "2023-10",
+    "monthly_return": 0.05068365444375389
+  },
+  {
+    "text": "Stock: MSFT. Period: 2023-09. Monthly OHLCV - Open: $331.31, High: $340.86, Low: $309.45, Close: $315.75. Volume: 416,768,824, Avg Volume: 20,838,441. Price Volatility: 8.9256. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0393. Volume Momentum: 0.6161",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2023-09",
+    "monthly_return": -0.03928071563317722
+  },
+  {
+    "text": "Stock: MSFT. Period: 2023-08. Monthly OHLCV - Open: $335.19, High: $338.54, Low: $311.55, Close: $327.76. Volume: 479,669,427, Avg Volume: 20,855,192. Price Volatility: 4.5213. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0255. Volume Momentum: 0.4368",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2023-08",
+    "monthly_return": -0.025509900695724518
+  },
+  {
+    "text": "Stock: MSFT. Period: 2023-07. Monthly OHLCV - Open: $339.32, High: $366.78, Low: $327.00, Close: $335.92. Volume: 608,079,751, Avg Volume: 35,769,397. Price Volatility: 8.1166. Alpha Factors: current_price: 498.8400, price_change_1d: 7.7500, price_change_5d: 1.3900, price_change_10d: 18.6000, return_1d: 1.5781. Fundamentals: market_cap: 3707648344000.0, pe_ratio: 38.61, forward_pe: 33.22, price_to_book: 11.52, dividend_yield: 0.0067. News - Positive: 43, Negative: 0, Neutral: 7. Price Momentum: -0.0039. Volume Momentum: 0.1994",
+    "label": 0,
+    "ticker": "MSFT",
+    "year_month": "2023-07",
+    "monthly_return": -0.003855050115651537
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2025-06. Monthly OHLCV - Open: $167.84, High: $181.23, Low: $162.00, Close: $176.23. Volume: 847,447,897, Avg Volume: 42,372,395. Price Volatility: 4.5083. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0426. Volume Momentum: 0.6414",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2025-06",
+    "monthly_return": 0.042595988877713944
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2025-05. Monthly OHLCV - Open: $160.45, High: $176.77, Low: $147.84, Close: $171.74. Volume: 942,808,158, Avg Volume: 44,895,627. Price Volatility: 6.3552. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0647. Volume Momentum: 0.7429",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2025-05",
+    "monthly_return": 0.0647241165530068
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2025-04. Monthly OHLCV - Open: $153.62, High: $166.10, Low: $140.53, Close: $158.80. Volume: 842,648,281, Avg Volume: 40,126,109. Price Volatility: 5.2426. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0110. Volume Momentum: 0.1405",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2025-04",
+    "monthly_return": 0.011014197491564386
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2025-03. Monthly OHLCV - Open: $171.93, High: $174.97, Low: $150.66, Close: $154.64. Volume: 731,963,205, Avg Volume: 34,855,391. Price Volatility: 5.1857. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0741. Volume Momentum: 0.3393",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2025-03",
+    "monthly_return": -0.07406742111250826
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2025-02. Monthly OHLCV - Open: $200.69, High: $207.05, Low: $166.77, Close: $170.28. Volume: 629,464,870, Avg Volume: 33,129,730. Price Volatility: 9.4153. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.1538. Volume Momentum: 0.7289",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2025-02",
+    "monthly_return": -0.15380410475575207
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2025-01. Monthly OHLCV - Open: $190.65, High: $205.48, Low: $187.36, Close: $204.02. Volume: 500,375,385, Avg Volume: 25,018,769. Price Volatility: 3.8778. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0770. Volume Momentum: 0.5729",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2025-01",
+    "monthly_return": 0.07702053529008078
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-12. Monthly OHLCV - Open: $168.76, High: $201.42, Low: $168.57, Close: $189.30. Volume: 645,620,865, Avg Volume: 30,743,851. Price Volatility: 9.2270. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.1039. Volume Momentum: -0.2658",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-12",
+    "monthly_return": 0.10385445215464459
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-11. Monthly OHLCV - Open: $170.07, High: $182.49, Low: $163.70, Close: $168.95. Volume: 529,990,651, Avg Volume: 26,499,533. Price Volatility: 5.1466. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0137. Volume Momentum: -0.5516",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2024-11",
+    "monthly_return": -0.013661042676163252
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-10. Monthly OHLCV - Open: $167.69, High: $182.02, Low: $159.74, Close: $171.11. Volume: 569,355,454, Avg Volume: 24,754,585. Price Volatility: 3.0283. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0247. Volume Momentum: 0.5798",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-10",
+    "monthly_return": 0.024672136056051286
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-09. Monthly OHLCV - Open: $161.72, High: $166.15, Low: $147.22, Close: $165.85. Volume: 532,527,762, Avg Volume: 26,626,388. Price Volatility: 5.1433. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0540. Volume Momentum: -0.4741",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-09",
+    "monthly_return": 0.05395271987798665
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-08. Monthly OHLCV - Open: $170.25, High: $174.05, Low: $154.93, Close: $163.38. Volume: 550,739,537, Avg Volume: 25,033,615. Price Volatility: 3.0328. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0432. Volume Momentum: -0.0981",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2024-08",
+    "monthly_return": -0.04321855235418128
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-07. Monthly OHLCV - Open: $183.03, High: $191.75, Low: $164.06, Close: $171.54. Volume: 526,148,198, Avg Volume: 23,915,827. Price Volatility: 7.7314. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0626. Volume Momentum: 0.6075",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2024-07",
+    "monthly_return": -0.06257172523088703
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-06. Monthly OHLCV - Open: $172.54, High: $186.05, Low: $171.16, Close: $182.15. Volume: 461,090,319, Avg Volume: 24,267,912. Price Volatility: 3.6559. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0519. Volume Momentum: 0.0618",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-06",
+    "monthly_return": 0.05185655714038239
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-05. Monthly OHLCV - Open: $164.30, High: $178.77, Low: $163.05, Close: $172.50. Volume: 542,413,794, Avg Volume: 24,655,172. Price Volatility: 3.8551. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0527. Volume Momentum: 0.1238",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-05",
+    "monthly_return": 0.05272793848407168
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-04. Monthly OHLCV - Open: $150.69, High: $174.71, Low: $149.60, Close: $162.78. Volume: 657,659,985, Avg Volume: 29,893,636. Price Volatility: 4.6658. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0469. Volume Momentum: 0.0720",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-04",
+    "monthly_return": 0.04688404398996714
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-03. Monthly OHLCV - Open: $138.43, High: $152.26, Low: $130.66, Close: $150.93. Volume: 671,379,553, Avg Volume: 33,568,978. Price Volatility: 7.0453. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.1006. Volume Momentum: -0.2140",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-03",
+    "monthly_return": 0.10055417821204625
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-02. Monthly OHLCV - Open: $142.12, High: $149.44, Low: $135.41, Close: $138.46. Volume: 647,506,998, Avg Volume: 32,375,350. Price Volatility: 3.3443. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0191. Volume Momentum: 0.0412",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2024-02",
+    "monthly_return": -0.019127231510342794
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2024-01. Monthly OHLCV - Open: $138.55, High: $153.78, Low: $135.15, Close: $140.10. Volume: 580,941,276, Avg Volume: 27,663,870. Price Volatility: 5.3391. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0140. Volume Momentum: 2.0327",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2024-01",
+    "monthly_return": 0.01396829992038798
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2023-12. Monthly OHLCV - Open: $131.86, High: $142.68, Low: $127.90, Close: $139.69. Volume: 619,214,883, Avg Volume: 30,960,744. Price Volatility: 4.0879. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0594. Volume Momentum: -0.4042",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2023-12",
+    "monthly_return": 0.05938116183831323
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2023-11. Monthly OHLCV - Open: $124.07, High: $139.42, Low: $123.72, Close: $132.53. Volume: 535,336,827, Avg Volume: 25,492,230. Price Volatility: 3.4232. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0481. Volume Momentum: 0.2960",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2023-11",
+    "monthly_return": 0.048082245947014615
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2023-10. Monthly OHLCV - Open: $131.21, High: $141.22, Low: $120.21, Close: $124.08. Volume: 680,762,930, Avg Volume: 30,943,770. Price Volatility: 6.1323. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0752. Volume Momentum: 0.1797",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2023-10",
+    "monthly_return": -0.07520310054408579
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2023-09. Monthly OHLCV - Open: $137.46, High: $139.16, Low: $127.22, Close: $130.86. Volume: 477,625,238, Avg Volume: 23,881,262. Price Volatility: 3.0863. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: -0.0354. Volume Momentum: 0.4324",
+    "label": 0,
+    "ticker": "GOOGL",
+    "year_month": "2023-09",
+    "monthly_return": -0.03538257408226436
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2023-08. Monthly OHLCV - Open: $130.78, High: $138.00, Low: $126.38, Close: $136.17. Volume: 593,521,002, Avg Volume: 25,805,261. Price Volatility: 2.3594. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.0351. Volume Momentum: 0.2912",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2023-08",
+    "monthly_return": 0.03511972633979457
+  },
+  {
+    "text": "Stock: GOOGL. Period: 2023-07. Monthly OHLCV - Open: $120.10, High: $133.74, Low: $115.35, Close: $132.72. Volume: 640,282,972, Avg Volume: 37,663,704. Price Volatility: 5.0449. Alpha Factors: current_price: 179.5300, price_change_1d: 0.8900, price_change_5d: 5.9900, price_change_10d: 6.2100, return_1d: 0.4982. Fundamentals: market_cap: 2184126005000.0, pe_ratio: 20.04, forward_pe: 19.27, price_to_book: 6.31, dividend_yield: 0.0048. News - Positive: 0, Negative: 0, Neutral: 0. Price Momentum: 0.1108. Volume Momentum: 0.2923",
+    "label": 1,
+    "ticker": "GOOGL",
+    "year_month": "2023-07",
+    "monthly_return": 0.11081352527619681
+  },
+  {
+    "text": "Stock: AMZN. Period: 2025-06. Monthly OHLCV - Open: $204.98, High: $223.82, Low: $202.68, Close: $219.39. Volume: 870,802,903, Avg Volume: 43,540,145. Price Volatility: 4.5917. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0617. Volume Momentum: 1.0227",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2025-06",
+    "monthly_return": 0.06165013307524791
+  },
+  {
+    "text": "Stock: AMZN. Period: 2025-05. Monthly OHLCV - Open: $190.63, High: $214.84, Low: $183.85, Close: $205.01. Volume: 937,367,052, Avg Volume: 44,636,526. Price Volatility: 8.3508. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0779. Volume Momentum: -0.3041",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2025-05",
+    "monthly_return": 0.07786540483701368
+  },
+  {
+    "text": "Stock: AMZN. Period: 2025-04. Monthly OHLCV - Open: $187.86, High: $198.34, Low: $161.38, Close: $184.42. Volume: 1,313,093,455, Avg Volume: 62,528,260. Price Volatility: 7.9726. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0403. Volume Momentum: 0.3371",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2025-04",
+    "monthly_return": -0.04032887547483999
+  },
+  {
+    "text": "Stock: AMZN. Period: 2025-03. Monthly OHLCV - Open: $213.35, High: $214.01, Low: $184.40, Close: $190.26. Volume: 966,335,482, Avg Volume: 46,015,975. Price Volatility: 4.8569. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0720. Volume Momentum: 0.4796",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2025-03",
+    "monthly_return": -0.0719929762949957
+  },
+  {
+    "text": "Stock: AMZN. Period: 2025-02. Monthly OHLCV - Open: $234.06, High: $242.52, Low: $204.16, Close: $212.28. Volume: 783,718,420, Avg Volume: 41,248,338. Price Volatility: 10.1910. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.1059. Volume Momentum: 0.3885",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2025-02",
+    "monthly_return": -0.10588829921657816
+  },
+  {
+    "text": "Stock: AMZN. Period: 2025-01. Monthly OHLCV - Open: $222.03, High: $241.77, Low: $216.20, Close: $237.68. Volume: 652,629,074, Avg Volume: 32,631,454. Price Volatility: 7.3936. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0793. Volume Momentum: 0.0650",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2025-01",
+    "monthly_return": 0.07928435201162477
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-12. Monthly OHLCV - Open: $209.96, High: $233.00, Low: $209.51, Close: $219.39. Volume: 760,918,833, Avg Volume: 36,234,230. Price Volatility: 5.6271. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0412. Volume Momentum: -0.3720",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-12",
+    "monthly_return": 0.041194058184234154
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-11. Monthly OHLCV - Open: $199.00, High: $215.90, Low: $194.31, Close: $207.89. Volume: 905,938,116, Avg Volume: 45,296,906. Price Volatility: 5.1332. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0503. Volume Momentum: -0.7503",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-11",
+    "monthly_return": 0.050320820492093056
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-10. Monthly OHLCV - Open: $184.90, High: $195.61, Low: $180.25, Close: $186.40. Volume: 734,067,340, Avg Volume: 31,915,971. Price Volatility: 2.7780. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0069. Volume Momentum: 1.0848",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-10",
+    "monthly_return": 0.006860044293199429
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-09. Monthly OHLCV - Open: $177.55, High: $195.37, Low: $171.16, Close: $186.33. Volume: 764,498,511, Avg Volume: 38,224,926. Price Volatility: 6.9348. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0572. Volume Momentum: 0.1021",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-09",
+    "monthly_return": 0.0571914893617022
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-08. Monthly OHLCV - Open: $189.28, High: $190.60, Low: $151.61, Close: $178.50. Volume: 971,024,071, Avg Volume: 44,137,458. Price Volatility: 6.4454. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0303. Volume Momentum: -0.3834",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2024-08",
+    "monthly_return": -0.030260227087521015
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-07. Monthly OHLCV - Open: $193.49, High: $201.20, Low: $176.80, Close: $186.98. Volume: 868,117,789, Avg Volume: 39,459,900. Price Volatility: 7.4481. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0518. Volume Momentum: 0.0115",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2024-07",
+    "monthly_return": -0.051825557809330625
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-06. Monthly OHLCV - Open: $177.70, High: $199.84, Low: $175.92, Close: $193.25. Volume: 813,275,850, Avg Volume: 42,803,992. Price Volatility: 4.8150. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0836. Volume Momentum: 1.4988",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-06",
+    "monthly_return": 0.083604351239206
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-05. Monthly OHLCV - Open: $181.63, High: $191.70, Low: $173.87, Close: $176.44. Volume: 892,339,076, Avg Volume: 40,560,867. Price Volatility: 3.5241. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0143. Volume Momentum: -0.3776",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2024-05",
+    "monthly_return": -0.014301675977653644
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-04. Monthly OHLCV - Open: $180.79, High: $189.77, Low: $166.32, Close: $175.00. Volume: 913,774,690, Avg Volume: 41,535,213. Price Volatility: 4.1258. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0330. Volume Momentum: 2.3354",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2024-04",
+    "monthly_return": -0.03298889318671602
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-03. Monthly OHLCV - Open: $176.75, High: $181.70, Low: $171.47, Close: $180.38. Volume: 700,200,667, Avg Volume: 35,010,033. Price Volatility: 2.3452. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0121. Volume Momentum: 0.1898",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-03",
+    "monthly_return": 0.012119851868477144
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-02. Monthly OHLCV - Open: $155.87, High: $177.22, Low: $155.62, Close: $176.76. Volume: 1,045,157,826, Avg Volume: 52,257,891. Price Volatility: 3.8012. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.1097. Volume Momentum: -0.2971",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-02",
+    "monthly_return": 0.10974384731290802
+  },
+  {
+    "text": "Stock: AMZN. Period: 2024-01. Monthly OHLCV - Open: $151.54, High: $161.73, Low: $144.05, Close: $155.20. Volume: 952,721,600, Avg Volume: 45,367,695. Price Volatility: 4.3751. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0351. Volume Momentum: 0.0622",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2024-01",
+    "monthly_return": 0.03514973654372028
+  },
+  {
+    "text": "Stock: AMZN. Period: 2023-12. Monthly OHLCV - Open: $146.00, High: $155.63, Low: $142.81, Close: $151.94. Volume: 930,652,363, Avg Volume: 46,532,618. Price Volatility: 3.4187. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0334. Volume Momentum: -0.0032",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2023-12",
+    "monthly_return": 0.03339454533088483
+  },
+  {
+    "text": "Stock: AMZN. Period: 2023-11. Monthly OHLCV - Open: $133.96, High: $149.26, Low: $133.71, Close: $146.09. Volume: 1,026,201,791, Avg Volume: 48,866,752. Price Volatility: 3.1880. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0664. Volume Momentum: 0.0696",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2023-11",
+    "monthly_return": 0.06635036496350367
+  },
+  {
+    "text": "Stock: AMZN. Period: 2023-10. Monthly OHLCV - Open: $127.28, High: $134.48, Low: $118.35, Close: $133.09. Volume: 1,224,706,726, Avg Volume: 55,668,488. Price Volatility: 3.5285. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0280. Volume Momentum: 0.0741",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2023-10",
+    "monthly_return": 0.028039548895411673
+  },
+  {
+    "text": "Stock: AMZN. Period: 2023-09. Monthly OHLCV - Open: $139.46, High: $145.86, Low: $123.04, Close: $127.12. Volume: 1,120,523,243, Avg Volume: 56,026,162. Price Volatility: 6.3796. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: -0.0796. Volume Momentum: 0.5226",
+    "label": 0,
+    "ticker": "AMZN",
+    "year_month": "2023-09",
+    "monthly_return": -0.07964089197799015
+  },
+  {
+    "text": "Stock: AMZN. Period: 2023-08. Monthly OHLCV - Open: $133.55, High: $143.63, Low: $126.41, Close: $138.01. Volume: 1,213,497,007, Avg Volume: 52,760,739. Price Volatility: 3.6121. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0480. Volume Momentum: 0.3897",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2023-08",
+    "monthly_return": 0.04799149517806966
+  },
+  {
+    "text": "Stock: AMZN. Period: 2023-07. Monthly OHLCV - Open: $128.59, High: $136.65, Low: $125.92, Close: $133.68. Volume: 954,239,904, Avg Volume: 56,131,759. Price Volatility: 2.6163. Alpha Factors: current_price: 223.4100, price_change_1d: 3.4900, price_change_5d: 6.2900, price_change_10d: 10.8900, return_1d: 1.5869. Fundamentals: market_cap: 2371809968000.0, pe_ratio: 36.39, forward_pe: 34.6, price_to_book: 7.75, eps: 6.14. News - Positive: 43, Negative: 2, Neutral: 5. Price Momentum: 0.0301. Volume Momentum: -0.0022",
+    "label": 1,
+    "ticker": "AMZN",
+    "year_month": "2023-07",
+    "monthly_return": 0.030050855293573785
+  },
+  {
+    "text": "Stock: NVDA. Period: 2025-06. Monthly OHLCV - Open: $135.49, High: $158.71, Low: $135.40, Close: $157.99. Volume: 3,822,309,699, Avg Volume: 191,115,485. Price Volatility: 5.8872. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.1500. Volume Momentum: -0.0156",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2025-06",
+    "monthly_return": 0.150021837239773
+  },
+  {
+    "text": "Stock: NVDA. Period: 2025-05. Monthly OHLCV - Open: $113.08, High: $143.49, Low: $110.82, Close: $135.13. Volume: 4,759,246,184, Avg Volume: 226,630,771. Price Volatility: 9.5444. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.2107. Volume Momentum: 0.4110",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2025-05",
+    "monthly_return": 0.21073380521458648
+  },
+  {
+    "text": "Stock: NVDA. Period: 2025-04. Monthly OHLCV - Open: $108.52, High: $115.10, Low: $86.62, Close: $108.92. Volume: 6,811,006,433, Avg Volume: 324,333,640. Price Volatility: 6.0126. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.0112. Volume Momentum: 0.0558",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2025-04",
+    "monthly_return": -0.01116659101225605
+  },
+  {
+    "text": "Stock: NVDA. Period: 2025-03. Monthly OHLCV - Open: $123.51, High: $123.70, Low: $103.65, Close: $108.38. Volume: 6,175,538,770, Avg Volume: 294,073,275. Price Volatility: 4.4012. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.0498. Volume Momentum: -0.2727",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2025-03",
+    "monthly_return": -0.04979835174469583
+  },
+  {
+    "text": "Stock: NVDA. Period: 2025-02. Monthly OHLCV - Open: $114.75, High: $143.44, Low: $113.01, Close: $124.92. Volume: 4,756,110,221, Avg Volume: 250,321,591. Price Volatility: 7.0410. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0708. Volume Momentum: 0.0481",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2025-02",
+    "monthly_return": 0.07080404594548265
+  },
+  {
+    "text": "Stock: NVDA. Period: 2025-01. Monthly OHLCV - Open: $136.00, High: $153.13, Low: $116.25, Close: $120.07. Volume: 5,950,612,536, Avg Volume: 297,530,627. Price Volatility: 8.9799. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.1319. Volume Momentum: 0.9691",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2025-01",
+    "monthly_return": -0.13187766611235635
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-12. Monthly OHLCV - Open: $138.83, High: $146.54, Low: $126.86, Close: $134.29. Volume: 4,086,168,557, Avg Volume: 194,579,455. Price Volatility: 4.5064. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.0313. Volume Momentum: -0.0933",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2024-12",
+    "monthly_return": -0.03130635504580541
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-11. Monthly OHLCV - Open: $134.70, High: $152.89, Low: $131.80, Close: $138.25. Volume: 4,498,075,137, Avg Volume: 224,903,757. Price Volatility: 4.8487. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0210. Volume Momentum: -0.3151",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-11",
+    "monthly_return": 0.021048744460856677
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-10. Monthly OHLCV - Open: $121.77, High: $144.42, Low: $115.14, Close: $132.76. Volume: 5,628,704,792, Avg Volume: 244,726,295. Price Volatility: 7.5579. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.1347. Volume Momentum: -0.1061",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-10",
+    "monthly_return": 0.13470085470085463
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-09. Monthly OHLCV - Open: $116.01, High: $127.67, Low: $100.95, Close: $121.44. Volume: 6,268,619,540, Avg Volume: 313,430,977. Price Volatility: 6.4113. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.1244. Volume Momentum: -0.5242",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-09",
+    "monthly_return": 0.12444444444444443
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-08. Monthly OHLCV - Open: $117.53, High: $131.26, Low: $90.69, Close: $119.37. Volume: 8,105,367,559, Avg Volume: 368,425,798. Price Volatility: 10.4036. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0930. Volume Momentum: -0.3624",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-08",
+    "monthly_return": 0.09303177364710202
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-07. Monthly OHLCV - Open: $123.47, High: $136.15, Low: $102.54, Close: $117.02. Volume: 6,407,092,755, Avg Volume: 291,231,489. Price Volatility: 7.6608. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.0586. Volume Momentum: 0.6609",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2024-07",
+    "monthly_return": -0.05856798069187451
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-06. Monthly OHLCV - Open: $1136.21, High: $1255.87, Low: $117.01, Close: $123.54. Volume: 5,234,031,077, Avg Volume: 275,475,320. Price Volatility: 482.0772. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.8926. Volume Momentum: 6.1971",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2024-06",
+    "monthly_return": -0.8925739130434783
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-05. Monthly OHLCV - Open: $850.77, High: $1158.19, Low: $812.55, Close: $1096.33. Volume: 964,797,076, Avg Volume: 43,854,413. Price Volatility: 92.6505. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.3202. Volume Momentum: 0.0954",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-05",
+    "monthly_return": 0.32022735757035675
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-04. Monthly OHLCV - Open: $902.99, High: $922.25, Low: $756.06, Close: $864.02. Volume: 1,004,973,847, Avg Volume: 45,680,629. Price Volatility: 36.9543. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.0438. Volume Momentum: -0.1884",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2024-04",
+    "monthly_return": -0.04383431271648796
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-03. Monthly OHLCV - Open: $800.00, High: $974.00, Low: $794.35, Close: $903.56. Volume: 1,210,961,732, Avg Volume: 60,548,087. Price Volatility: 31.9229. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0982. Volume Momentum: -0.0917",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-03",
+    "monthly_return": 0.09816599618371637
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-02. Monthly OHLCV - Open: $621.00, High: $823.94, Low: $616.50, Close: $791.12. Volume: 1,107,789,923, Avg Volume: 55,389,496. Price Volatility: 47.9967. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.2552. Volume Momentum: 0.3742",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-02",
+    "monthly_return": 0.2552080854237073
+  },
+  {
+    "text": "Stock: NVDA. Period: 2024-01. Monthly OHLCV - Open: $492.44, High: $634.93, Low: $473.20, Close: $615.27. Volume: 969,880,029, Avg Volume: 46,184,763. Price Volatility: 50.8156. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.2773. Volume Momentum: 0.1034",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2024-01",
+    "monthly_return": 0.2773418036870951
+  },
+  {
+    "text": "Stock: NVDA. Period: 2023-12. Monthly OHLCV - Open: $465.25, High: $504.33, Low: $450.10, Close: $495.22. Volume: 739,627,720, Avg Volume: 36,981,386. Price Volatility: 14.1240. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0590. Volume Momentum: 0.0541",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2023-12",
+    "monthly_return": 0.05895434619908062
+  },
+  {
+    "text": "Stock: NVDA. Period: 2023-11. Monthly OHLCV - Open: $408.84, High: $505.48, Low: $408.69, Close: $467.70. Volume: 914,975,019, Avg Volume: 43,570,239. Price Volatility: 21.0724. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.1050. Volume Momentum: 0.2026",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2023-11",
+    "monthly_return": 0.10502067336089779
+  },
+  {
+    "text": "Stock: NVDA. Period: 2023-10. Monthly OHLCV - Open: $440.30, High: $476.09, Low: $392.30, Close: $407.80. Volume: 1,014,241,343, Avg Volume: 46,101,879. Price Volatility: 21.0878. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.0894. Volume Momentum: 0.1954",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2023-10",
+    "monthly_return": -0.08936626323076233
+  },
+  {
+    "text": "Stock: NVDA. Period: 2023-09. Monthly OHLCV - Open: $497.62, High: $498.00, Low: $409.80, Close: $434.99. Volume: 858,010,319, Avg Volume: 42,900,516. Price Volatility: 21.9486. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: -0.1033. Volume Momentum: -0.1423",
+    "label": 0,
+    "ticker": "NVDA",
+    "year_month": "2023-09",
+    "monthly_return": -0.10327980374775808
+  },
+  {
+    "text": "Stock: NVDA. Period: 2023-08. Monthly OHLCV - Open: $464.60, High: $502.66, Low: $403.11, Close: $493.55. Volume: 1,363,638,357, Avg Volume: 59,288,624. Price Volatility: 22.5512. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0612. Volume Momentum: 1.2090",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2023-08",
+    "monthly_return": 0.06123809319027247
+  },
+  {
+    "text": "Stock: NVDA. Period: 2023-07. Monthly OHLCV - Open: $423.22, High: $480.88, Low: $416.49, Close: $467.29. Volume: 788,304,620, Avg Volume: 46,370,860. Price Volatility: 16.5280. Alpha Factors: current_price: 159.3400, price_change_1d: 2.0900, price_change_5d: 4.3200, price_change_10d: 13.8600, return_1d: 1.3291. Fundamentals: market_cap: 3885920158000.0, pe_ratio: 51.23, forward_pe: 37.17, price_to_book: 46.35, dividend_yield: 0.0003. News - Positive: 42, Negative: 0, Neutral: 8. Price Momentum: 0.0994. Volume Momentum: -0.2946",
+    "label": 1,
+    "ticker": "NVDA",
+    "year_month": "2023-07",
+    "monthly_return": 0.09942827565113063
+  }
+]
